@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Streamlit config and caches
+.streamlit/
+
+# Local databases/logs/data
+data/*.json
+test_output.txt
+python_loc.txt
+python_exe.txt
+python_version.txt
